@@ -1,15 +1,23 @@
+/* select classes which has ex-1 */
 [class*="ex-"]{
   transition: all 2s ease 0s;
 }
-/* .ex-1-square{
-  transition: all 2s ease 0s;
-} */
+
+/* esercizio 1 */
 .ex-1-square:hover{
   background-color: red;
 }
 
 
+/* esercizio 2 */
+.ex-2-square:hover{
+  cursor: pointer;
+}
 .ex-2-square:active{
-
   width: 100%;
+}
+
+/* esercizio 3 */
+.ex-3-square:hover{
+  border-radius: 50%;
 }
