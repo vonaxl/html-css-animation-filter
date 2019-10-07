@@ -46,5 +46,17 @@
 /* esercizio 7 */
 .ex-7-img:hover{
   filter: grayscale(100%) blur(10px);
+}
 
+/* esercizio 8 */
+.ex-8-img:hover{
+  filter: invert(10%) saturate(50%);
+  border-radius: 40px;
+}
+/* esercizio 9 uso padding perche sono togo */ 
+.ex-9-img:hover{
+  filter: sepia(20%) brightness(50%);
+  border-radius: 40px;
+  padding: 5%;
+  cursor: pointer;
 }
