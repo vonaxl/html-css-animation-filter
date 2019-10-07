@@ -80,6 +80,43 @@
 }
 @keyframes ruotaanti {
   75%{
-    transform: rotate(-270deg);
+    transform: rotate(270deg);
+  }
+}
+
+/* esercizio 12 */
+.ex-12-button:hover .ex-12-top-white{
+  animation: muovia linear 1.5s infinite;
+}
+.ex-12-button:hover .ex-12-bottom-white{
+  animation: muovib linear 1.5s infinite;
+}
+
+@keyframes muovia{
+  0%{
+    left: 60% ;
+  }
+  50%{
+    left: 10%;
+  }
+  75%{
+    left: 30%;
+  }
+  100%{
+    left: 60%;
+  }
+}
+@keyframes muovib{
+  0%{
+    right: 60% ;
+  }
+  50%{
+    right: 10%;
+  }
+  75%{
+    right: 30%;
+  }
+  100%{
+    right: 60%;
   }
 }
