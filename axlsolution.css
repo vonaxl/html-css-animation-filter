@@ -15,11 +15,14 @@
 }
 .ex-2-square:active{
   width: 100%;
+  background-color: green;
 }
 
 /* esercizio 3 */
 .ex-3-square:hover{
   border-radius: 50%;
+  background-image: url("https://media1.tenor.com/images/e6dfe5528b7a85a9fe8a546a1c388f2f/tenor.gif?itemid=13697120");
+  background-size: contain;
 }
 
 /* esercizio 4 */
